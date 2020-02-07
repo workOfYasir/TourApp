@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntoTheCity"
+    android:background="@drawable/city_portrait"
+    android:isScrollContainer="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/human_avatar" />
+
+        <ImageView
+            android:id="@+id/second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/first"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/human_avatar"/>
+
+        <ImageView
+            android:id="@+id/third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/second"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/human_avatar"/>
+
+        <ImageView
+            android:id="@+id/forth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/third"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/human_avatar"/>
+
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/RL"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:onClick="getIntoCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RLinner"
+        android:layout_marginTop="100dp"
+
+        >
+
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/city_portrait"
+            android:scaleType="centerCrop"
+            android:layout_centerHorizontal="true"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+        
+    <ImageView
+        android:background="@drawable/lahore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:alpha=".4"
+
+        android:id="@+id/cityPortrait"
+        />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/cityPortrait"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:onClick="getIntoCity"-->
+
+
+<!-- />-->
+
+
+
+</RelativeLayout>
